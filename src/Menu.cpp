@@ -1239,57 +1239,7 @@ static void RebuildFileMenu(TabInfo* tab, HMENU menu) {
     RemoveBadMenuSeparators(menu);
 }
 
-static void AppendAccelKeyToMenuString(str::WStr& str, const ACCEL& a) {
-    auto lang = trans::GetCurrentLangCode();
-    bool isEng = str::IsEmpty(lang) || str::Eq(lang, "en");
-    bool isGerman = str::Eq(lang, "de");
-
-    str.Append(L"\t"); // marks start of an accelerator in menu item
-    BYTE virt = a.fVirt;
-    if (virt & FALT) {
-        const WCHAR* s = L"Alt+";
-        if (isGerman) {
-            s = L"Größe+";
-        }
-        str.Append(s);
-    }
-    if (virt & FCONTROL) {
-        const WCHAR* s = L"Ctrl+";
-        if (isGerman) {
-            s = L"Strg+";
-        }
-        str.Append(s);
-    }
-    if (virt & FSHIFT) {
-        const WCHAR* s = L"Shift+";
-        if (isGerman) {
-            s = L"Umschalt+";
-        }
-        str.Append(s);
-    }
-    bool isVirt = virt & FVIRTKEY;
-    BYTE key = a.key;
-
-    if (isVirt && key >= VK_F1 && key <= VK_F24) {
-        int n = key - VK_F1 + 1;
-        str.AppendFmt(L"F%d", n);
-        return;
-    }
-    if (isVirt && key >= VK_NUMPAD0 && key <= VK_NUMPAD9) {
-        WCHAR c = (WCHAR)key - VK_NUMPAD0 + '0';
-        str.AppendChar(c);
-        return;
-    }
-
-    // virtual codes overlap with some ascii chars like '-' is VK_INSERT
-    // so for non-virtual assume it's a single char
-    bool isAscii = (key >= 'A' && key <= 'Z') || (key >= 'a' && key <= 'z') || (key >= '0' && key <= '9');
-    if (isAscii || !isVirt) {
-        WCHAR c = (WCHAR)key;
-        str.AppendChar(c);
-        return;
-    }
-
+static const char* getVirt(BYTE key, bool isEng) {
     // https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes
     // Note: might need to add if we add more shortcuts
     const char* keyStr = nullptr;
@@ -1363,14 +1313,69 @@ static void AppendAccelKeyToMenuString(str::WStr& str, const ACCEL& a) {
             keyStr = "Select";
             break;
     }
-    if (!keyStr) {
-        logf("Unknown key: 0x%x, virt: 0x%x\n", virt, key);
-        ReportIf(!keyStr);
+    return keyStr;
+}
+
+static void AppendAccelKeyToMenuString(str::WStr& str, const ACCEL& a) {
+    auto lang = trans::GetCurrentLangCode();
+    bool isEng = str::IsEmpty(lang) || str::Eq(lang, "en");
+    bool isGerman = str::Eq(lang, "de");
+
+    str.Append(L"\t"); // marks start of an accelerator in menu item
+    BYTE virt = a.fVirt;
+    if (virt & FALT) {
+        const WCHAR* s = L"Alt+";
+        if (isGerman) {
+            s = L"Größe+";
+        }
+        str.Append(s);
     }
-    if (keyStr) {
-        WCHAR* tmp = ToWstrTemp(keyStr);
-        str.Append(tmp);
+    if (virt & FCONTROL) {
+        const WCHAR* s = L"Ctrl+";
+        if (isGerman) {
+            s = L"Strg+";
+        }
+        str.Append(s);
     }
+    if (virt & FSHIFT) {
+        const WCHAR* s = L"Shift+";
+        if (isGerman) {
+            s = L"Umschalt+";
+        }
+        str.Append(s);
+    }
+    bool isVirt = virt & FVIRTKEY;
+    BYTE key = a.key;
+
+    if (isVirt) {
+        if (key >= VK_F1 && key <= VK_F24) {
+            int n = key - VK_F1 + 1;
+            str.AppendFmt(L"F%d", n);
+            return;
+        }
+        if (key >= VK_NUMPAD0 && key <= VK_NUMPAD9) {
+            WCHAR c = (WCHAR)key - VK_NUMPAD0 + '0';
+            str.AppendChar(c);
+            return;
+        }
+        const char* keyStr = getVirt(key, isEng);
+        if (keyStr) {
+            WCHAR* tmp = ToWstrTemp(keyStr);
+            str.Append(tmp);
+            return;
+        }
+    }
+
+    // virtual codes overlap with some ascii chars like '-' is VK_INSERT
+    // so for non-virtual assume it's a single char
+    bool isAscii = (key >= 'A' && key <= 'Z') || (key >= 'a' && key <= 'z') || (key >= '0' && key <= '9');
+    if (isAscii || !isVirt) {
+        WCHAR c = (WCHAR)key;
+        str.AppendChar(c);
+        return;
+    }
+    logf("Unknown key: 0x%x, virt: 0x%x\n", virt, key);
+    ReportIf(!true);
 }
 
 HMENU BuildMenuFromMenuDef(MenuDef* menuDef, HMENU menu, BuildMenuCtx* ctx) {
