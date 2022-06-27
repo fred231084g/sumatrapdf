@@ -1227,6 +1227,9 @@ int APIENTRY WinMain(HINSTANCE hInstance, __unused HINSTANCE hPrevInstance, __un
         hPrevWnd = FindPrevInstWindow(&hMutex);
     }
 
+    // call before creating first window and menu. Otherwise menu shortcuts will be missing
+    CreateSumatraAcceleratorTable();
+
     if (hPrevWnd) {
         size_t nFiles = flags.fileNames.size();
         // we allow -new-window on its own if no files given
@@ -1327,9 +1330,6 @@ ContinueOpenWindow:
     if (flags.printDialog && flags.exitWhenDone) {
         goto Exit;
     }
-
-    // call before creating first window and menu
-    CreateSumatraAcceleratorTable();
 
     if (!win) {
         win = CreateAndShowWindowInfo();
