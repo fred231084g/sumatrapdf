@@ -1,5 +1,5 @@
 AppTranslator: SumatraPDF
-921931e1414453ae0cb8fd1be55bd0883ae2d80a
+74a677fe997b9ed421cd0cd998acb102ce3a3421
 :&About
 af:&Omtrent
 am:&Ծրագրի մասին
@@ -74,6 +74,7 @@ vn:Giới thiệu
 :&Actual Size
 bg:&Реална големина
 br:&Tamanho real
+by:&Фактычны памер
 cn:实际大小(&A)
 co:&Dimensione attuale
 cy:&Maint Gwirioneddol
@@ -82,7 +83,7 @@ de:&Tatsächliche Größe
 el:Πραγματικό μέγεθος
 es:&Tamaño real
 eu:&Oraingo neurria
-fr:T&aille réelle
+fr:&Taille réelle
 hi:वास्तविक आकार
 it:Dimensione &attuale
 ja:実際のサイズ(&A)
@@ -90,7 +91,7 @@ nl:&Werkelijke grootte
 pl:&Rozmiar rzeczywisty
 ru:Насто&ящий размер
 tl:&Totoong Sukat
-tr:Gercek boyut
+tr:&Gercek boyut
 uk:Фактичний розмір
 vn:Kích Thước Thực
 :&Advanced Options...
@@ -221,7 +222,7 @@ sv:&Alla valda sidor
 ta:அனைத்து தேர்ந்தெடுக்கப்பட்ட பக்கங்கள் (&A)
 th:&หน้าที่เลือกทั้งหมด
 tl:&Lahat ng napiling pahina
-tr:Tüm seçilen &sayfalar
+tr:&Tüm seçilen sayfalar
 tw:所有已選取頁面(&A)
 uk:Обрано всі сторінки
 uz:&Hamma tanlangan betlar
@@ -229,6 +230,7 @@ vn:Tất cả các trang được chọn
 :&Back
 bg:&Назад
 br:&Voltar
+by:&Назад
 cn:上一视图(B)
 co:&Precedente
 cy:&Nôl
@@ -237,7 +239,7 @@ de:&Vorherige Ansicht
 el:Πίσω
 es:&Atrás
 eu:A&tzera
-fr:Revenir (&b)
+fr:R&evenir
 hi:&पीछे
 it:&Indietro
 ja:戻る(&B)
@@ -245,12 +247,13 @@ nl:&Terug
 pl:&Wstecz
 ru:&Назад
 tl:&Bumalik
-tr:Geri
+tr:&Geri
 uk:Назад
 vn:Quay Lại
 :&Book View
 bg:&Като Книга
 br:&Ver como livro
+by:У выглядзе &кнігі
 cn:书籍视图(&B)
 co:Cum’è un &libru
 cy:Golwg &Llyfr
@@ -258,6 +261,7 @@ de:&Buchansicht
 el:Προβολή βιβλίου
 es:&Vista de libro
 eu:&Liburu ikuspegia
+fr:&Comme un livre
 hi:&बुक व्यू
 it:&Libro
 ja:ブック ビュー(&B)
@@ -265,13 +269,14 @@ nl:&Boek Tonen
 pl:Widok o&dczytu
 ru:В &разворот
 tl:&View ng libro
-tr:Kitap Görünümü
+tr:&Kitap Görünümü
 uk:Подання книги
 vn:Đọc Sách
 :&Cancel
 am:Չեղարկել
 bg:&Отказ
 br:&Cancelar
+by:&Адмяніць
 ca-xv:&Cancel·la
 ca:&Cancel·la
 cn:取消
@@ -282,7 +287,7 @@ el:&Άκυρο
 es:Cancelar
 et:&Loobu
 eu:E&zeztatu
-fr:Annuler (&c)
+fr:Ann&uler
 hi:&रद्द करें
 hr:&Odustani
 hu:&Mégse
@@ -299,7 +304,7 @@ sk:&Zrušiť
 sl:&Prekliči
 th:&ยกเลิก
 tl:&Kanselahin
-tr:İptal Et
+tr:&İptal Et
 tw:取消(&C)
 uk:&Скасувати
 vn:&Hủy
@@ -340,6 +345,7 @@ vn:&Bổ Sung
 :&Close
 bg:&Затвори
 br:&Fechar
+by:&Закрыць
 cn:关闭(&C)
 co:&Chjode
 cy:&Cau
@@ -347,7 +353,7 @@ de:&Schließen
 el:Κλείσιμο
 es:&Cerrar
 eu:It&xi
-fr:Fermer (&c)
+fr:&Fermer
 hi:&बंद करे
 it:&Chiudi
 ja:閉じる(&C)
@@ -355,7 +361,7 @@ nl:&Sluiten
 pl:&Zamknij
 ru:&Закрыть
 tl:&Isara
-tr:Kapat
+tr:&Kapat
 uk:Закрити
 vn:&Đóng
 :&Continue installing 32-bit version
@@ -467,7 +473,7 @@ de:&In Zwischenablage kopieren
 el:Αντιγραφή στο πρόχειρο
 es:&Copiar a portapapeles
 eu:&Kopiatu gakora
-fr:&Copier dans le Presse-Papiers
+fr:&Copier dans le presse-papiers
 hi:क्लिपबोर्ड पर कॉपी करें
 it:&Copia negli Appunti
 ja:クリップボードへコピー(&C)
@@ -475,7 +481,7 @@ nl:&Kopieer Naar Klembord
 pl:Kopiuj do s&chowka
 ru:С&копировать в буфер обмена
 tl:&Kopyahin sa clipboard
-tr:Panoya kopyala
+tr:Panoya &kopyala
 uk:Скопіювати до буфера обміну
 vn:&Lưu Sao Chép
 :&Discard changes
@@ -653,6 +659,7 @@ cy:&Wynebu
 de:&Doppelseite
 el:Προσανατολισμός
 es:&Caras opuestas
+fr:&Deux pages
 it:Pagine a&ffiancate
 ja:見開き(&F)
 nl:&Gericht op
@@ -809,7 +816,7 @@ de:&Erste Seite
 el:Πρώτη σελίδα
 es:&Primera página
 eu:&Lehen orrialdea
-fr:Première page (&f)
+fr:P&remière page
 it:&Prima pagina
 ja:最初のページ(&F)
 nl:&Eerste Pagina
@@ -895,6 +902,7 @@ el:Ελεύθερο κείμενο
 es:&Texto libre
 et:&Vaba tekst
 eu:&Idazki askea
+fr:&Texte libre
 hr:&Slobodni tekst
 hu:Szabad szöveg
 id:Teks Bebas
@@ -938,7 +946,7 @@ et:&Liigu
 eu:&Joan Hona
 fa:&برو به
 fi:&Siirry
-fr:A&ller …
+fr:A&ller…
 fy-nl:&Gean nei
 ga:&Téigh Chuig
 gl:Ir &a
@@ -1133,7 +1141,7 @@ de:Text &hervorheben
 el:Επισήμανση
 es:&Destacar
 eu:&Nabarmendu
-fr:Surligner (&h)
+fr:&Surligner
 it:Eviden&zia
 ja:ハイライト(&H)
 nl:&Markeren
@@ -1151,7 +1159,7 @@ de:&Letzte Seite
 el:Τελευταία σελίδα
 es:Última página
 eu:&Azken orrialdea
-fr:Dernière page (&l)
+fr:&Dernière page
 it:&Ultima pagina
 ja:最後のページ(&L)
 nl:&Laatste Pagina
@@ -1366,7 +1374,7 @@ de:&Nächste Seite
 el:Επόμενη σελίδα
 es:&Página siguiente
 eu:&Hurrengo orrialdea
-fr:Page Suiva&nte
+fr:Page &suivante
 it:Pagina &successiva
 ja:次のページ(&N)
 nl:&Volgende Pagina
@@ -1519,7 +1527,7 @@ bs:&Otvori dokument
 by:&Адкрыць Дакумент
 ca-xv:&Obri el document
 ca:&Obre un document
-cn:打开文件(&O)
+cn:打开文档(&O)
 co:&Apre u ducumentu
 cy:Agor &Dogfen
 cz:&Otevřít dokument
@@ -1582,7 +1590,7 @@ de:&Öffnen...
 el:Άνοιγμα
 es:&Abrir...
 eu:&Ireki...
-fr:&Ouvrir
+fr:&Ouvrir...
 it:&Apri
 ja:開く(&O)...
 nl:&Openen
@@ -1794,7 +1802,7 @@ bs:&Pričvrsti dokument
 by:&Замацаваць Дакумент
 ca-xv:&Marca el document
 ca:&Marca el document
-cn:固定文件(&P)
+cn:固定文档(&P)
 co:&Spirlà u ducumentu
 cy:&Pinio Dogfen
 cz:&Připnout dokument
@@ -1806,7 +1814,7 @@ et:&Kinnita dokument
 eu:&Pin Agiria
 fa:&سنجاق کردن سند
 fi:&Kiinnitä asiakirja
-fr:Ajouter le document à la liste
+fr:&Épingler le document
 ga:&Greamaigh an cháipéis le biorrán
 gl:&Marcar Documento
 he:הצמד קובץ
@@ -1855,7 +1863,7 @@ de:&Vorherige Seite
 el:Προηγούμενη σελίδα
 es:&Página anterior
 eu:A&urreko orrialdea
-fr:Page &Précédente
+fr:Page &précédente
 it:Pagina &precedente
 ja:前のページ(&P)
 nl:&Vorige Pagina
@@ -2003,7 +2011,7 @@ bs:&Zapamti lozinku za ovaj dokument
 by:&Запомніць пароль для гэтага дакументу
 ca-xv:&Recorda la contrasenya per a aquest document
 ca:&Recorda la contrasenya per a aquest document
-cn:记住本文件的密码(&R)
+cn:记住本文档的密码(&R)
 co:Arricurdassi di a &parolla d’intesa per stu ducumentu
 cy:&Cofio cyfrinair y ddogfen
 cz:P&amatovat si heslo tohoto dokumentu
@@ -2015,7 +2023,7 @@ et:&Jäta meelde selle dokumendi salasõna
 eu:&Gogoratu agiri honetarako sarhitza
 fa:رمز عبور این سند را به &خاطر داشته باش
 fi:&Muista tämän asiakirjan salasana
-fr:&Se rappeler le mot de passe pour ce document
+fr:&Mémoriser le mot de passe pour ce document
 ga:&Cuimhnigh ar an bhfocal faire don cháipéis seo
 gl:&Lembrar o contrasinal para este documento
 he:שמור ססמה לקובץ זה
@@ -2066,7 +2074,7 @@ bs:&Upamti ove postavke za svaki pojedini dokument
 by:Запомніць гэтыя параметры для &кожнага дакумента
 ca-xv:Conserva estes &preferències per a cada document
 ca:Recorda aquestes &preferències per a cada document
-cn:为每一个文件记住这些设置(&R)
+cn:为每一个文档记住这些设置(&R)
 co:Arricurdassi di ste &preferenze per ogni ducumentu
 cy:C&ofio'r gosodiadau hyn ar gyfer pob dogfen
 cz:&Pamatovat si tato nastavení pro každý dokument
@@ -2078,7 +2086,7 @@ et:Dokumendi sulgemisel jäetakse &meelde küljendi sätted
 eu:G&ogoratu ezarpen hauek agiri bakoitzerako
 fa:این تنظیمات را برای همه‌ی اسناد به &خاطر بسپار
 fi:&Muista nämä asetukset jokaiselle asiakirjalle
-fr:&Se rappeler ces paramètres pour chaque document
+fr:&Mémoriser ces paramètres pour chaque document
 fy-nl:&Bewarje dizze ynstellingen foar elk dokumint
 ga:Cuimhnigh ar na socruithe seo do gach cáipéis
 gl:&Lembrar estes axustes para cada documento
@@ -2420,7 +2428,7 @@ cy:&Un Tudalen
 de:Einzel&seitenansicht
 el:Μία σελίδα 
 es:&Una sola página
-fr:Page unique (&s)
+fr:&Une page
 it:Pagina &singola
 ja:単一のページ(&S)
 nl:&Enkele Pagina
@@ -2442,6 +2450,7 @@ dk:&Frimærke
 el:Σφραγίδα
 es:&Estampa
 et:&Tempel
+fr:&Tampon
 hr:&Pečat
 hu:Bélyeg
 id:&Stempel
@@ -2471,7 +2480,7 @@ dk:&Gennemstreg
 el:Εξάλειψη
 es:&Tachar
 et:&Tõmba maha
-fr:Rayer
+fr:&Rayer
 hr:Za&crtati
 hu:Kihúzás
 id:Coret
@@ -3321,7 +3330,7 @@ et:Lisa lehekülg %s lemmikutesse (valikulise) nimega:
 eu:Gehitu %s Gogokoenetara (aukerazkoa) Izenarekin:
 fa:افزودن صفحه‌ی %s به علاقه‌مندی‌ها با نامی اختیاری:
 fi:Lisää sivu %s suosikkeihin (valinnaisella) nimellä:
-fr:Ajouter la page %s aux favoris avec un nom (optionnel):
+fr:Ajouter la page %s aux favoris avec un nom (optionnel) :
 ga:Cuir leathanach a %s le na ceanáin le ainm (roghnach):
 gl:Engadir páxina %s aos favoritos  cun nome (opcional):
 he:הוסף את עמוד מס' %s למועדפים בשם:
@@ -3629,7 +3638,7 @@ bs:Svi podržani dokumenti
 by:Усе падтрымліваемыя дакументы
 ca-xv:Tots els documents suportats
 ca:Tots els documents compatibles
-cn:所有支持的文件
+cn:所有支持的文档
 co:Tutti i ducumenti accettati
 cy:Pob dogfen sy'n cael ei chynnal
 cz:Všechny podporované dokumenty
@@ -3692,6 +3701,7 @@ az:Qeydlər
 bg:Обяснения
 bn:ব্যখা
 br:Anotações
+by:Анатацыі
 ca-xv:Anotacions
 ca:Anotacions
 cn:标注
@@ -4079,6 +4089,7 @@ az:Müəllif: %s
 bg:Автор: %s
 bn:গ্রন্থকার: %s
 br:Autor: %s
+by:Аўтар: %s
 cn:作者: %s
 co:Autore : %s
 cy:Awdur: %s
@@ -4247,6 +4258,7 @@ am:Խորքի գույնը.
 bg:Цвят на фона
 bn:পটভূমির রং:
 br:Cor de fundo
+by:Колер фону
 ca-xv:Color de fons
 ca:Color de fons
 cn:背景色:
@@ -4258,7 +4270,7 @@ el:Χρώμα φόντου:
 es:Color de fondo
 et:Taustavärv:
 eu:Barrenaren margoa:
-fr:Couleur d'arrière-plan
+fr:Couleur d'arrière-plan :
 gl:Cor de fondo
 hi:बैकग्राउंड कलर:
 hr:Boja pozadine:
@@ -5007,7 +5019,7 @@ et:Vali keel (Change Language)
 eu:Aldatu Hizkuntza (Change Language)
 fa:تغییر زبان (Change Language)
 fi:Valitse kieli (Change Language)
-fr:Changer de langue (Change Language)
+fr:Changer la langue
 fy-nl:Taal kieze (Change Language)
 ga:Athraigh an Teanga (Change Language)
 gl:Cambiar lingua
@@ -5078,7 +5090,7 @@ et:Vaata, kas on &uuendusi
 eu:&Egiaztatu Eguneraketak
 fa:بررسی برای به‌روزرسانی‌ها
 fi:Tarkista &päivitysten saatavuus
-fr:Vérifier les mises à jo&ur
+fr:&Vérifier les mises à jour
 fy-nl:&Kontrolearje op fernijings
 ga:Lorg Nuashonruithe
 gl:Buscar actualizacións
@@ -5127,6 +5139,7 @@ vn:Kiểm tra cập nhật
 am:Արդիացումների ստուգում...
 bg:Проверявам за обновления
 br:Verificando por atualizações...
+by:Праверка абнаўлення…
 ca-xv:S'està comprovant si hi ha actualitzacions...
 ca:S'està comprovant si hi ha actualitzacions...
 cn:正在检查更新...
@@ -5137,7 +5150,7 @@ el:Έλεγχος για ενημέρωση...
 es:Buscando actualizaciones...
 et:Uuenduste otsimine...
 eu:Eguneraketak egiaztatzen...
-fr:Vérifier les mises à jour
+fr:Vérification des mises à jour...
 gl:Comprobar actualizacións
 hi:अपडेट की जांच की जा रही है...
 hr:Provjera dostupnosti ažuriranja...
@@ -5336,7 +5349,7 @@ el:Χρώμα:
 es:Color:
 et:Värv:
 eu:Margoa:
-fr:Couleur
+fr:Couleur :
 gl:cor
 hi:रंग:
 hr:Boja:
@@ -5707,7 +5720,7 @@ et:Jätkuv kaheleheküljeline
 eu:Bi aldeetatik jarraian
 fa:دو صفحه‌ای پیوسته
 fi:Peräkkäin ja rinnakkain
-fr:Vue continue, page double
+fr:Vue continue, deux pages
 fy-nl:Dûbele side trochrinnend
 ga:Dhá leathanach ar leanúint
 gl:Páxina dobre continua
@@ -6022,6 +6035,7 @@ uz:&Izohni nusxa olish
 vn:Chép chú thích
 :Copy To Clipboard
 br:Copiar para área de transferência
+by:Скапіраваць у буфер абмену
 cn:复制到剪贴板
 co:Cupià in u preme’papei
 cy:Copïo i'r Clipfwrdd
@@ -6030,7 +6044,7 @@ el:Αντιγραφή στο πρόχειρο
 es:Copiar a portapapeles
 et:Kopeeri lõikelauale
 eu:Kopiatu gakora
-fr:Copier dans le Presse-Papiers
+fr:Copier dans le presse-papiers
 hi:क्लिपबोर्ड पर कॉपी करें
 it:Copia negli Appunti
 ja:クリップボードへコピー
@@ -7111,7 +7125,7 @@ nl:Aangepast & zoom...
 pl:&Własne powiększenie...
 ru:Свой &масштаб...
 tl:Pasadya &Mag-zoom
-tr:Özel yakınlaştır
+tr:Özel &yakınlaştır
 uk:Нетиповий масштаб...
 vn:Thiết Lập &Phóng...
 :Dark
@@ -7241,6 +7255,7 @@ az:Tarix:
 bg:Дата:
 bn:তারিখ:
 br:Data:
+by:Дата:
 cn:日期:
 co:Data :
 cy:Dyddiad:
@@ -7698,7 +7713,7 @@ de:&Beenden
 el:Έξοδος
 es:S&alir
 eu:I&rten
-fr:Quitter (&x)
+fr:&Quitter
 hi:निकास
 it:&Esci
 ja:終了(&X)
@@ -8010,7 +8025,7 @@ bs:Unesite komandnu liniju za izvršavanje prilikom dvostrukog klika na PDF doku
 by:Увядзіце каманду для выкліку пры падвойнай пстрычцы па дакуменце PDF:
 ca-xv:Introduïu la línia d'ordes que voleu executar en fer doble clic al document PDF:
 ca:Introduïu la línia d'ordres que voleu executar en fer doble clic al document PDF:
-cn:请输入您双击 PDF 文件后调用的命令行:
+cn:请输入您双击 PDF 文档后调用的命令行:
 co:Scrivite a linea di cumanda à eseguisce quandu ci hè un doppiu-cliccu nant’à u ducumentu PDF :
 cy:Rhowch y llinell orchymyn i'w gychwyn pan yn rhoi clic dwbl i ddogfen PDF:
 cz:Dvojité kliknutí na PDF dokument vykoná zadaný příkazový řádek:
@@ -8248,7 +8263,7 @@ de:&Nächste Ansicht
 el:Εμπρός
 es:A&delante
 eu:A&urrera
-fr:Avancer (&o)
+fr:&Avancer
 hi:आगे
 it:&Avanti
 ja:進む(&O)
@@ -8268,7 +8283,7 @@ de:&Vollbild
 el:Πλήρης οθόνη
 es:P&antalla completa
 eu:Ikusleiho-o&soa
-fr:Plein écran (&u)
+fr:P&lein écran
 hi:पूर्ण स्क्रीन
 it:Sc&hermo pieno
 ja:全画面表示(&U)
@@ -8302,7 +8317,7 @@ et:Kaheleheküljeline
 eu:Bi Aldeetatik
 fa:نمایش دوصفحه‌ای
 fi:Rinnakkain
-fr:Page double
+fr:Deux pages
 fy-nl:Dûbele side
 ga:Dhá Leathanach
 gl:Páxina dobre
@@ -8435,7 +8450,7 @@ et:Faili ümbernimetamine ebaõnnestus!
 eu:Hutsegitea agiria berrizendatzerakoan!
 fa:تغییر نام پرونده ناموفق بود!
 fi:Tiedoston uudelleennimeäminen epäonnistui!
-fr:Impossible de renommer le fichier!
+fr:Impossible de renommer le fichier !
 ga:Theip ar athainmniú an chomhaid!
 gl:Fallouse ao renomear o ficheiro
 he:פעולת שינוי שם הקובץ נכשלה.
@@ -9122,7 +9137,7 @@ de:S&uchen...
 el:Εύρεση
 es:Busca&r...
 eu:&Bilatu...
-fr:Rechercher... (&d)
+fr:R&echercher...
 it:&Trova
 ja:検索(&D)...
 nl:Zoe&k
@@ -9422,6 +9437,7 @@ de:An &Inhalt anpassen
 el:Προσαρμογή περιεχομένου
 es:Ajustar al &contenido
 eu:Finkatu &edukia
+fr:Ajuster au &contenu
 it:Adatta al &contenuto
 ja:内容に合わせる(&C)
 nl:&Inhoud Aanpassen
@@ -9440,6 +9456,7 @@ de:An &Seite anpassen
 el:Προσαρμογή σελίδας
 es:Ajustar a la &página
 eu:Finkatu &orrialdea
+fr:&Page entière
 it:Adatta alla &pagina
 ja:ページに合わせる(&P)
 nl:&Pagina Aanpassen
@@ -9458,6 +9475,7 @@ de:An Fenster&breite anpassen
 el:Προσαρμογή πλάτους
 es:Ajustar al &ancho
 eu:Finkatu &zabalera
+fr:Pleine &largeur
 it:Adatta a &larghezza
 ja:幅に合わせる(&W)
 nl:&Breedte Aanpassen
@@ -10138,7 +10156,7 @@ el:Πληροφορίες γραμματοσειρών
 es:Información sobre las fuentes
 et:Hangi fondi infot
 eu:Lortu hizkien argibideak
-fr:Obtenir les Informations sur les Polices
+fr:Infos sur les polices
 hi:फ़ॉन्ट जानकारी प्राप्त करें
 it:Ottieni informazioni sui font
 ja:フォント情報を取得
@@ -10242,7 +10260,7 @@ et:Peida &sätted
 eu:Ezkuta A&ukerak
 fa:مخفی کردن &گزینه‌ها
 fi:Piilota
-fr:Masque les &options
+fr:Masquer les &options
 ga:Cuir na roghanna i bhfolach
 gl:Agochar as &opcións
 he:הסתר אפשרויות
@@ -10674,7 +10692,7 @@ cn:SumatraPDF 安装位置(&F):
 co:Installà SumatraPDF in u &cartulare :
 cy:Gosod SumatraPDF yn &ffolder:
 cz:Nainstalovat SumatraPDF do &složky:
-de:&Installationsverzeichnis:
+de:&Installationsordner:
 dk:Installer SumatraPDF i &mappe:
 el:Εγκατάσταση SumatraPDF στο φάκελο:
 es:&Instalar SumatraPDF en la siguiente carpeta:
@@ -11272,7 +11290,7 @@ el:Τέλος γραμμής:
 es:Fin de Línea:
 et:Joone lõpp:
 eu:Lerro hasiera:
-fr:Fin de Ligne
+fr:Fin de ligne :
 hr:Kraj linije:
 id:Garis Akhir:
 it:Fine linea:
@@ -11299,7 +11317,7 @@ el:Έναρξη γραμμής:
 es:Inicio de Línea:
 et:Joone algus:
 eu:Lerro hasiera:
-fr:Début de Ligne
+fr:Début de ligne :
 hr:Početak linije:
 id:Garis Awal:
 it:Inizio linea:
@@ -11725,7 +11743,7 @@ de:Neues &Fenster
 el:Νέο παράθυρο
 es:Nueva &ventana
 eu:&Leiho berria
-fr:Nouvelle fenêtre (&w)
+fr:Nouvelle &fenêtre
 it:Nuova &finestra
 ja:新しいウィンドウ(&W)
 nl:Nieuw &Kader
@@ -12477,7 +12495,7 @@ bs:Otvori dokument...
 by:Адкрыць дакумент...
 ca-xv:Obri un document...
 ca:Obre un document...
-cn:打开文件...
+cn:打开文档...
 co:Apre un ducumentu…
 cy:Agor dogfen...
 cz:Otevřít dokument...
@@ -12928,7 +12946,7 @@ bs:PDF dokument
 by:Дакумент PDF
 ca-xv:Document PDF
 ca:Document PDF
-cn:PDF 文件
+cn:PDF 文档
 co:Ducumentu PDF
 cy:Dogfen PDF
 cz:Dokument PDF
@@ -13006,7 +13024,7 @@ et:PDF-i optimeerimised:
 eu:PDF Hobekuntzak:
 fa:PDF بهینه‌سازی
 fi:PDF-optimoinnit:
-fr:Optimisations PDF
+fr:Optimisations PDF :
 ga:Optimisations PDF
 gl:Optimización de PDF:
 he:אופטימיזציות PDF:
@@ -13188,7 +13206,7 @@ bs:PDF dokumenti
 by:PDF-дакументы
 ca-xv:Documents PDF
 ca:Documents PDF
-cn:PDF 文件
+cn:PDF 文档
 co:Ducumenti PDF
 cy:Dogfennau PDF
 cz:Dokumenty PDF
@@ -13796,6 +13814,7 @@ el:Πολυγραμμή
 es:Polilínea
 et:Murdjoon
 eu:Poli lerroa
+fr:Ligne polygonale
 ga:Líne iolrach
 gl:Liña polivinílica
 hr:Poli-linija
@@ -14580,7 +14599,7 @@ de:Rechteck: x=%d y=%d dx=%d dy=%d
 el:Τετρ: x=%d y=%d dx=%dy=%d
 es:Rectangulo: x=%d y=%d dx=%d dy=%d
 et:Ristkülik: x=%d y=%d dx=%d dy=%d
-fr:Rect: x=%d y=%d dx=%d dy=%d
+fr:Rect : x=%d y=%d dx=%d dy=%d
 hr:Pravokutnik: x=%d y=%d dx=%d dy=%d
 id:Persegi: x=%d y=%d dx=%d dy=%d
 it:Rettangolo: x=%d Y=%d dx=%d dy=%d
@@ -14656,7 +14675,7 @@ et:Jäta &avatud failid meelde
 eu:&Gogoratu irekitako agiriak
 fa:پرونده‌های &باز را به خاطر بسپار
 fi:Muista &avatut tiedostot
-fr:Se rappeler les fichiers &ouverts
+fr:Mémoriser les fichiers &ouverts
 fy-nl:Unthâld &iepene bestannen
 ga:Cuimhnigh ar chomhaid &oscailte
 gl:Lembrar ficheiros abertos
@@ -14849,7 +14868,7 @@ et:Nimeta ümber
 eu:Berrizendatu Honela
 fa:تغییر نام به
 fi:Uudelleennimeä
-fr:Renommer En
+fr:Renommer
 ga:Athainmnigh chuig
 gl:Renomear como
 he:שינוי שם
@@ -14901,7 +14920,7 @@ de:&Gegen UZS drehen
 el:Περιστροφή αριστερά
 es:Girar &a la izquierda
 eu:Itzulikatu e&zkerrera
-fr:Rotation vers &la gauche
+fr:Rotation vers la &gauche
 it:Ruota a &sinistra
 ja:左に回転(&L)
 nl:&Linksom Roteren
@@ -15083,7 +15102,7 @@ el:Επιλογή
 es:S&elección
 et:V&alik
 eu:&Hautapena
-fr:S&élection
+fr:&Sélection
 hr:O&dabir
 hu:K&iválasztás
 id:Pilihan
@@ -15172,7 +15191,7 @@ el:Αποθήκευση σχολίων σε υπάρχον PDF
 es:Guardar Anotaciones a PDF existente
 et:Salvesta märkused olemasolevasse PDF-i
 eu:Gorde oharrak badagoen PDF-an
-fr:Sauvegarder les annotations dans le PDF existant.
+fr:Sauvegarder les annotations dans le PDF existant
 gl:Gardar anotacións ó PDF existente
 hr:Spremi bilješke u postojeći PDF
 hu:Megjegyzések elmentése a meglévő PDF-be
@@ -15326,7 +15345,7 @@ el:Αποθήκευση αλλαγών σε υπάρχον PDF
 es:Guardar los cambios en un PDF existente
 et:Salvesta muudatused olemas olevasse PDF-i
 eu:Gorde aldaketak badagoen PDF batean
-fr:Enregistrer les modifications dans le PDF existant.
+fr:Enregistrer les modifications dans le PDF existant
 hr:Spremi promjene u postojeći PDF
 hu:Változtatások mentése a meglévő PDF-be
 id:Simpan perubahan ke PDF terkini
@@ -15989,7 +16008,7 @@ et:Näita &järjehoidjaid
 eu:Erakutsi Laster&markak
 fa:ن&شانک‌ها را نشان بده
 fi:Näytä &Kirjanmerkit
-fr:Voir les &Marque-pages
+fr:&Afficher les signets
 ga:Lea&bharmharcanna a taispeáint
 gl:Amosar &marcadores
 he:הצג סימניות
@@ -16146,7 +16165,7 @@ dk:Vis &rullepaneler
 el:Εμφάνιση μπαρών κύλισης
 es:Mostrar las &barras de desplazamiento
 et:Näita kerimi&sribasid
-fr:Afficher les &barres  de défilement
+fr:Afficher les &barres de défilement
 ga:Taispeáin na barraí &scrollála
 gl:Amosr barra&s de desprazamento
 hr:Prikaži &klizače
@@ -16246,7 +16265,7 @@ cy:Dangos &Nodau Tudalen
 de:Lesezeichen anzeigen
 el:Εμφάνιση σελιδοδεικτών
 es:Mostrar favo&ritos
-fr:Afficher les &marque-pages
+fr:&Afficher les signets
 it:Visualizza &Preferiti
 ja:ブックマークを表示(&M)
 nl:Toon Blad&wijzers
@@ -16278,7 +16297,7 @@ et:Näita lemmikuid
 eu:Erakutsi Gogokoenak
 fa:علاقه‌مندی‌ها را نشان بده
 fi:&Näytä suosikit
-fr:Voir Favoris
+fr:Afficher les favoris
 ga:Taispeáin Ceanáin
 gl:Amosar favoritos
 he:הצג מועדפים
@@ -16286,7 +16305,7 @@ hi:पसंदीदा दिखाएँ
 hr:Prikaži favorite
 hu:Kedvencek megjelenítése
 id:Tampilkan Favorit
-it:Visualizza Preferiti
+it:Preferiti
 ja:お気に入りの表示
 ka:რჩეულების ჩვენება
 kr:즐겨찾기 보이기
@@ -16379,7 +16398,7 @@ et:Näita sageli loetud dokumente
 eu:Erakutsi Sarri irakurriak
 fa:نشان دادن آخرین چیزهایی که خوانده‌اید
 fi:Näytä usein luetut
-fr:Montrer les documents fréquemment lus
+fr:Montrer les documents lus fréquemment
 ga:Taispeáin cinn léite go minic
 gl:Amosar lidos decote
 he:הצג 'נקרא תכופות'
@@ -16437,7 +16456,7 @@ dk:Vis i &mappe
 el:Εμφάνιση στον &φάκελο
 es:Mostrar en la &carpeta
 et:Näita &kausta
-fr:Montrer dans le &dossier
+fr:&Afficher dans le dossier
 ga:Taispeáin san &fillteán
 gl:Amosar no carta&fol
 he:פתח תיקייה מכילה...
@@ -16484,7 +16503,7 @@ et:Näita &järjehoidjate külgriba kui võimalik
 eu:E&rakutsi lastermarka albobarra eskuragarri dagoenean
 fa:نوار ن&شانک‌ها را در صورت وجود نشان بده
 fi:Näytä &kirjanmerkit sivupalkissa, kun saatavilla
-fr:Voir la barre latérale des &signets lorsqu'elle est disponible
+fr:&Afficher la barre latérale des signets lorsqu'elle est disponible
 fy-nl:Toan de &blêdwizerarkbalke as beskikber
 ga:Taispeáin taobh-bharra na gceanán nuair atá sé ar fáil
 gl:Amosar a &barra de marcadores cando estea dispoñible
@@ -16550,7 +16569,7 @@ et:Üheleheküljeline
 eu:Orrialde Bakarra
 fa:تک صفحه‌ای
 fi:Yksittäinen sivu
-fr:Une seule page
+fr:Une page
 fy-nl:Inkele side
 ga:Leathanach Amháin
 gl:Unha soa páxina
@@ -17070,7 +17089,7 @@ et:SumatraPDF-i sätted
 eu:SumatraPDF Aukerak
 fa: گزینه‌های SumatraPDF
 fi:SumatraPDF:n asetukset
-fr:SumatraPDF Options
+fr:Options SumatraPDF
 fy-nl:SumatraPDF Opsjes
 ga:Roghanna SumatraPDF
 gl:Opcións de SumatraPDF
@@ -17501,7 +17520,7 @@ de:Textausrichtung:
 el:Ευθυγράμμιση κειμένου:
 es:Alineación de Texto:
 et:Teksti joondus:
-fr:Alignement du Texte :
+fr:Alignement du texte :
 hr:Poravnavanje teksta:
 id:Rata Teks:
 it:Allineamento testo:
@@ -17528,7 +17547,7 @@ de:Textfarbe:
 el:Text Color: 
 es:Color de Texto:
 et:Teksti värv
-fr:Couleur du Texte :
+fr:Couleur du texte :
 hr:Boja teksta:
 id:Warna Teks:
 it:Colore testo:
@@ -17556,7 +17575,7 @@ de:Textgröße:
 el:Μέγεθος κειμένου: 
 es:Tamaño de Texto
 et:Teksti suurus:
-fr:Taille du Texte :
+fr:Taille du texte :
 hr:Veličina teksta:
 id:Ukuran Teks:
 it:Dimensione testo:
@@ -17583,7 +17602,7 @@ de:Textgröße: %d
 el:Μέγεθος κειμένου: %d
 es:Tamaño de Texto: %d
 et:Teksti suurus: %d
-fr:Taille du Texte : %d
+fr:Taille du texte : %d
 hr:Veličina teksta: %d
 id:Ukuran Teks: %d
 it:Dimensione testo: %d
@@ -17861,7 +17880,7 @@ bs:Ovaj dokument koristi nepodržane funkcionalnosti (%s) i zbog toga možda ne�
 by:Гэты дакумент выкарыстоўвае магчымасці, якія не падтрымліваюцца (%s) і можа няправільна адлюстроўвацца
 ca-xv:Aquest document utilitza característiques no suportades (%s) i pot no mostrar-se correctament
 ca:Aquest document utilitza característiques no compatibles (%s) i potser no es pot mostrar correctament
-cn:该文件使用了不支持的特性 (%s)，可能无法正确渲染。
+cn:该文档使用了不支持的特性 (%s)，可能无法正确渲染。
 co:Stu ducumentu impiegheghja funzioni micca accettate (%s) è u risultatu puderia ùn esse cusì bè
 cy:Mae'r ddogfen hon yn defnyddio nodweddion sydd ddim yn cael eu cynnal (%s) ac efallai na fyddant yn rendro'n gywir
 cz:Tento dokument používá nepodporované funkce (%s) a tímto se nemusí vykreslit správně
@@ -18310,7 +18329,7 @@ dk:Ikke-gemte annoteringer i '%s'
 el:Μη αποθηκευμένα σχόλια στο '%s'
 es:Anotaciones sin guardar en «%s»
 et:Salvestamata märkused dokumendis '%s'
-fr:Annotations dans ‘%s’ non sauvegardées
+fr:Annotations non sauvegardées dans « %s »
 hr:Nespremljene bilješke u '%s'
 hu:Mentetlen megjegyzések itt: '%s'
 id:Catatan tidak tersimpan di '%s'
@@ -18803,7 +18822,7 @@ dk:Du installerer 32-bit SumatraPDF på 64-bit operativsystem. \nVil du hente \n
 el:Εγκαθιστάτε το SumatraPDF 32-bit σε λειτουργικό σύστημα 64-bit.\nΘέλετε να κατεβάσετε\nτην έκδοση 64-bit;
 es:Está instalando SumatraPDF de 32 bits en un sistema operativo de 64 bits.\n¿Quiere descargar la versión de 64 bits?
 et:Paigaldad 64-bitisele operatsioonisüsteemile 32-bitist SumatraPDF-i versiooni.\nKas soovid alla laadida\nhoopis 64-bitise versiooni?
-fr:Installation de SumatraPDF 32-bits sur un  système 64-bits. \nVoulez-vous télécharger la  version \n64-bits
+fr:Installation de SumatraPDF 32-bits sur un système 64-bits.\nVoulez-vous télécharger la version 64-bits ?
 hr:Instalirate 32-bitnu SumatraPDF on 64-bitni OS.\nŽelite li preuzeti 64-bit verziju?
 hu:A SumatraPDF 32-bites verzióját telepíted éppen egy 64-bites operációs rendszerre.\nSzeretnéd inkább letölteni a\n64-bites verziót?
 id:Anda memasang SumatraPDF versi 32-bit pada OS 64-bit.\nApakah Anda ingin mengunduh versi 64-bit?
@@ -19233,7 +19252,7 @@ bs:štampam dokument
 by:дакумент друкуецца
 ca-xv:s'està imprimint el document
 ca:s'està imprimint el document
-cn:正在打印文件
+cn:正在打印文档
 co:stampa di ducumentu
 cy:argraffu dogfen
 cz:tisk dokumentu
